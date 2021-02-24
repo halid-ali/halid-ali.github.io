@@ -11696,7 +11696,7 @@ _.d=d},
 a5H:function a5H(a){this.a=a},
 a5I:function a5I(a){this.a=a},
 a5s:function a5s(a){this.a=a},
-Sd:function Sd(a){this.b=a},
+Sd:function Sd(){},
 Uo:function(){var s=0,r=P.ad(t.H)
 var $async$Uo=P.a9(function(a,b){if(a===1)return P.aa(b,r)
 while(true)switch(s){case 0:s=2
@@ -57979,9 +57979,9 @@ q=o.x
 r=q.a
 p=q.c
 return new T.rG(H.a([s,m,F.nm(C.iu,q.b,p,2,l,r)],t.b5),n)},
-oC:function(a,b){var s=a.a,r=C.c.ci(C.f.i(C.f.bC(s,6e7)%60),2,"0"),q=C.c.ci(C.f.i(C.f.bC(s,1e6)%60),2,"0")
-return b?r+":"+q:r+"m "+q+"s"},
-Vq:function(a){this.af(new X.a5G(this,C.f.bC(a.a,1e6),480,570))},
+oC:function(a,b){var s=a.a,r=C.c.ci(C.f.i(C.f.bC(s,36e8)%60),2,"0"),q=C.c.ci(C.f.i(C.f.bC(s,6e7)%60),2,"0")
+return b?r+":"+q:r+"h "+q+"m"},
+Vq:function(a){this.af(new X.a5G(this,C.f.bC(a.a,6e7),480,570))},
 VP:function(){if(!this.Q)return
 this.af(new X.a5H(this))
 P.f8("start tapped at "+A.n2("HH:mm.ss",null).ie(new P.bL(Date.now(),!1)))},
@@ -58121,7 +58121,7 @@ r.f=new P.al(P.bD(0,s-r.b.a,0).a-r.e.a)
 r.r=C.mL},
 $S:1}
 X.Sd.prototype={
-i:function(a){return this.b}}
+i:function(a){return"DisplayFormat.hourMinute"}}
 A.de.prototype={
 eo:function(){this.a=new P.x(4278203481)
 this.c=new P.x(4278394180)
@@ -60166,7 +60166,7 @@ C.nh=new Y.hX("DiagnosticsTreeStyle.flat")
 C.k1=new Y.hX("DiagnosticsTreeStyle.singleLine")
 C.fZ=new Y.hX("DiagnosticsTreeStyle.errorProperty")
 C.Ds=new Y.r9(null,null,null,null,null)
-C.WS=new X.Sd("DisplayFormat.minuteSecond")
+C.WS=new X.Sd()
 C.Dt=new G.rb(null,null,null,null,null)
 C.Du=new S.C5("DragStartBehavior.down")
 C.b_=new S.C5("DragStartBehavior.start")
