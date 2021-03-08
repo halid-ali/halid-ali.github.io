@@ -71856,7 +71856,7 @@ aq:function(){return new F.DA(C.n)}}
 F.DA.prototype={
 QY:function(a){this.ad(new F.alN(this,a))},
 H:function(a,b){var s=this.d,r=H.a([C.Ez,C.Fn,C.Fs,C.Fj],t.Ez)
-return new S.xS(D.apV()?"/settings":"/login",T.aPn(),s,r,C.zv,!1,null)}}
+return new S.xS(D.apV()?"/":"/login",T.aPn(),s,r,C.zv,!1,null)}}
 F.alN.prototype={
 $0:function(){this.a.d=this.b},
 $S:1}
